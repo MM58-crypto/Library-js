@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Library</title>
+  </head>
+  <body>
+    <nav>
+     <h1>Library</h1>
+   </nav>
+    <button id ="open" onclick="onform()">NEW BOOK</button>
+    <br> <br>
+
+  <div id ="cardfield"> </div>
+  <div id ="myform">
+    <form action = "" id ="formid">
+      <fieldset id ="formbox">
+        <button type="button" id="close" onclick="closeform()"><b>X</b></button>
+        <h2>Book Details</h2> <br>
+        &nbsp;<b>Author's name:</b><input type="text" id="authorid" required> <br> <br>
+        <b>Title:</b><input type="text"  id="titleid" required> <br>
+        <br>
+        <b>Number of pages:</b><input type ="text" id="pagesid" required>  <br>
+      <!--  <b><p> Have you read the book? (Please type either 'Yes' or 'No')--></b> </p>
+<!--<b>Read</b> <input type="checkbox" id="readid"><br> -->
+        <br>
+
+        <button type="button" value="Submit" id ="add"onclick="addbooktolib()">Add</button>
+
+       </fieldset>
+     </form>
+   </div>
+<!--  <button id ="rm">Remove</button> -->
+   <script src ="main.js"></script>
+
+
+
+
+  </body>
+</html>
