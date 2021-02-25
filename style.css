@@ -38,7 +38,18 @@ body {
   display: grid;
   margin: auto;
 }
-
+#display {
+  background-color: grey;
+  color: black;
+  width: 50%;
+  padding: 16px 20px;
+  /* centeriing the button using margin and display-grid */
+  display: grid;
+  margin: auto;
+}
+#btex {
+  text-align: center;
+}
 h1 {
   text-align: center;
   font-size: 30pt;
