@@ -44,8 +44,8 @@ function onform() {
 displayed on the page
  */
 
-const btn = document.querySelector("#add");
-btn.addEventListener('click',displaybook);
+const btn = document.querySelector("#display");
+//btn.addEventListener('click',displaybook);
 
 // clearing the form after submitting
 btn.addEventListener('click', () => {
@@ -59,7 +59,8 @@ function closeform() {
 }
 
 function displaybook () {
-  for(let i = 0; i < mylibrary.length - 1; i++) {
+  for(let i = 0; i < mylibrary.length; i++) {
+
     let bookdisplay = `
     <li> <b>Title:</b> ${bookobj._title}</li>
     <li> <b>Author:</b> ${bookobj._author}</li>
